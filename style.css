@@ -1,0 +1,139 @@
+
+Attachment Next-Generation Smart Headset Design and Innovation.docx added.Conversation opened. 1 unread message.
+
+Skip to content
+Using Sasi Group Mail with screen readers
+
+Conversations
+ 
+Program Policies
+Powered by Google
+Last account activity: 1 hour ago
+Details
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #d19c4d, #e4c265c3);
+    color: #333;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    background:rgba(233, 231, 234, 0.9);;
+    padding: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.disco-text {
+    font-size: 24px; /* Adjust font size as needed */
+    font-weight: bold;
+    animation: disco-colors 1s infinite; /* 1 second per cycle, repeats infinitely */
+  }
+  
+  /* Define the keyframes for changing colors */
+  @keyframes disco-colors {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: green; }
+    150% { color:orange; }
+  }
+  
+  
+.profile-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 150px;  /* Increased size */
+    height: 150px; /* Increased size */
+    background: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-pic img {
+    width: 150px;  /* Increased size */
+    height: 150px; /* Increased size */
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+}
+
+/* Section Styling */
+section {
+    margin: 40px auto;
+    padding: 20px;
+    width: 80%;
+    background: rgba(233, 231, 234, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #b738c8;
+}
+
+/* Skills Grid */
+.skills-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills-grid span {
+    background: #0ca5cb;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.soft-skills {
+    
+    color: rgb(16, 11, 11);
+    padding: 8px 6px;
+    border-radius: 9px;
+    font-weight: pointer;
+
+}
+/*.soft-skills p {
+    background: #756c96c3;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}*/
+
+.language-selector {
+    margin: 10px;
+    padding: 10px;
+    /*background-color: #007BFF;*/
+    color: rgb(25, 4, 4);
+    border: none;
+    cursor: pointer;
+}
+
+/* Contact Links */
+a {
+    text-decoration: none;
+    color: #163ab0;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff758c;
+}
+
+
+  
+COLOR.CSS
+Displaying PAGE.HTML.
